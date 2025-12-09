@@ -16,7 +16,7 @@
 <jsp:include page="header.jsp"></jsp:include>
 
 <h2 align="center">홈쇼핑 회원 등록</h2>
-<form name="frm" action="" method="post">
+<form name="frm" action="joinok.jsp" method="post">
 <table border="1" align="center">
 	<tr>
 		<td align="center"> 회원번호(자동발생)

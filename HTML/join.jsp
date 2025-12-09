@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <script type="text/javascript" src="check.js"></script>
+
 <jsp:include page="header.jsp"></jsp:include>
 
 <h2 align="center">홈쇼핑 회원 등록</h2>
@@ -44,11 +46,13 @@
 	</tr>
 	<tr>
 		<td colspan="2" align="center"> 
-		<input type="submit" value="등 록" onclick="return chk()">
+		<input type="submit" value="등 록" onclick="return joinCheck()">
 		<input type="submit" value="조 회">
 	</tr>
 </table>
 </form>
+
 <jsp:include page="footer.jsp"></jsp:include>
+
 </body>
 </html>

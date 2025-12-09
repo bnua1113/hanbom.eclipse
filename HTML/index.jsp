@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <jsp:include page="header.jsp"></jsp:include>
 
 <h2 align="center">쇼핑몰 회원관리 프로그램</h2>
@@ -20,5 +21,6 @@
 6. 회원매출정보 조회 프로그램을 작성한다.<br>
 
 <jsp:include page="footer.jsp"></jsp:include>
+
 </body>
 </html>
